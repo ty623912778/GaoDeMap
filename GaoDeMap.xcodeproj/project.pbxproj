@@ -28,6 +28,24 @@
 		0462F2921D5B52F7009A1BBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0462F2911D5B52F7009A1BBE /* UIKit.framework */; };
 		0462F2941D5B5300009A1BBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0462F2931D5B5300009A1BBE /* Foundation.framework */; };
 		0462F2961D5B5336009A1BBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0462F2951D5B5336009A1BBE /* CoreGraphics.framework */; };
+		0462F2BF1D5DC499009A1BBE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0462F2BE1D5DC499009A1BBE /* AVFoundation.framework */; };
+		04CFAA5A1D5ED2AA0059E140 /* MapLabeling.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CFAA591D5ED2AA0059E140 /* MapLabeling.plist */; };
+		04CFAA5D1D5ED3F40059E140 /* ChineseInclude.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAA5C1D5ED3F40059E140 /* ChineseInclude.m */; };
+		04CFAA611D5ED5480059E140 /* PinYinForObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAA601D5ED5480059E140 /* PinYinForObjc.m */; };
+		04CFAA641D5ED5790059E140 /* HanyuPinyinOutputFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAA631D5ED5790059E140 /* HanyuPinyinOutputFormat.m */; };
+		04CFAA671D5EE27C0059E140 /* REVClusterMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAA661D5EE27C0059E140 /* REVClusterMapView.m */; };
+		04CFAA6A1D5EE45F0059E140 /* REVClusterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAA691D5EE45F0059E140 /* REVClusterManager.m */; };
+		04CFAA6D1D5EE49A0059E140 /* REVClusterBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAA6C1D5EE49A0059E140 /* REVClusterBlock.m */; };
+		04CFAA701D5EE5120059E140 /* REVAnnotationsCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAA6F1D5EE5120059E140 /* REVAnnotationsCollection.m */; };
+		04CFAA731D5F127D0059E140 /* REVClusterPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAA721D5F127D0059E140 /* REVClusterPin.m */; };
+		04CFAA791D5F17810059E140 /* cluster.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CFAA771D5F17810059E140 /* cluster.png */; };
+		04CFAA7A1D5F17810059E140 /* iconfont-mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CFAA781D5F17810059E140 /* iconfont-mark.png */; };
+		04CFAA7D1D5F181C0059E140 /* MyAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAA7C1D5F181C0059E140 /* MyAnnotationView.m */; };
+		04CFAACB1D61B7D30059E140 /* PinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAACA1D61B7D30059E140 /* PinyinHelper.m */; };
+		04CFAACE1D61B99F0059E140 /* ChineseToPinyinResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAACD1D61B99F0059E140 /* ChineseToPinyinResource.m */; };
+		04CFAAD01D61BCF00059E140 /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04CFAACF1D61BCF00059E140 /* unicode_to_hanyu_pinyin.txt */; };
+		04CFAAD31D62F5FD0059E140 /* PinyinFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAAD21D62F5FD0059E140 /* PinyinFormatter.m */; };
+		04CFAAD91D62F7F90059E140 /* NSString+PinYin4Cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAAD81D62F7F90059E140 /* NSString+PinYin4Cocoa.m */; };
 		6CEB5261BA040315982C795F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8293BB5A814C3397A382838 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +97,39 @@
 		0462F2931D5B5300009A1BBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0462F2951D5B5336009A1BBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0462F2AF1D5B6CDB009A1BBE /* APIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIKey.h; sourceTree = "<group>"; };
+		0462F2BE1D5DC499009A1BBE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		04CFAA591D5ED2AA0059E140 /* MapLabeling.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MapLabeling.plist; sourceTree = "<group>"; };
+		04CFAA5B1D5ED3F40059E140 /* ChineseInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseInclude.h; sourceTree = "<group>"; };
+		04CFAA5C1D5ED3F40059E140 /* ChineseInclude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseInclude.m; sourceTree = "<group>"; };
+		04CFAA5F1D5ED5480059E140 /* PinYinForObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinYinForObjc.h; sourceTree = "<group>"; };
+		04CFAA601D5ED5480059E140 /* PinYinForObjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinYinForObjc.m; sourceTree = "<group>"; };
+		04CFAA621D5ED5790059E140 /* HanyuPinyinOutputFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanyuPinyinOutputFormat.h; sourceTree = "<group>"; };
+		04CFAA631D5ED5790059E140 /* HanyuPinyinOutputFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanyuPinyinOutputFormat.m; sourceTree = "<group>"; };
+		04CFAA651D5EE27C0059E140 /* REVClusterMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REVClusterMapView.h; sourceTree = "<group>"; };
+		04CFAA661D5EE27C0059E140 /* REVClusterMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REVClusterMapView.m; sourceTree = "<group>"; };
+		04CFAA681D5EE45F0059E140 /* REVClusterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REVClusterManager.h; sourceTree = "<group>"; };
+		04CFAA691D5EE45F0059E140 /* REVClusterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REVClusterManager.m; sourceTree = "<group>"; };
+		04CFAA6B1D5EE49A0059E140 /* REVClusterBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REVClusterBlock.h; sourceTree = "<group>"; };
+		04CFAA6C1D5EE49A0059E140 /* REVClusterBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REVClusterBlock.m; sourceTree = "<group>"; };
+		04CFAA6E1D5EE5120059E140 /* REVAnnotationsCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REVAnnotationsCollection.h; sourceTree = "<group>"; };
+		04CFAA6F1D5EE5120059E140 /* REVAnnotationsCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REVAnnotationsCollection.m; sourceTree = "<group>"; };
+		04CFAA711D5F127D0059E140 /* REVClusterPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REVClusterPin.h; sourceTree = "<group>"; };
+		04CFAA721D5F127D0059E140 /* REVClusterPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REVClusterPin.m; sourceTree = "<group>"; };
+		04CFAA741D5F16370059E140 /* REVClusterMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REVClusterMap.h; sourceTree = "<group>"; };
+		04CFAA771D5F17810059E140 /* cluster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cluster.png; sourceTree = "<group>"; };
+		04CFAA781D5F17810059E140 /* iconfont-mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-mark.png"; sourceTree = "<group>"; };
+		04CFAA7B1D5F181C0059E140 /* MyAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotationView.h; sourceTree = "<group>"; };
+		04CFAA7C1D5F181C0059E140 /* MyAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotationView.m; sourceTree = "<group>"; };
+		04CFAAC61D61B7AC0059E140 /* GaoDeMap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GaoDeMap-Bridging-Header.h"; path = "拼音判断/GaoDeMap-Bridging-Header.h"; sourceTree = "<group>"; };
+		04CFAAC91D61B7D30059E140 /* PinyinHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinHelper.h; sourceTree = "<group>"; };
+		04CFAACA1D61B7D30059E140 /* PinyinHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinHelper.m; sourceTree = "<group>"; };
+		04CFAACC1D61B99F0059E140 /* ChineseToPinyinResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyinResource.h; sourceTree = "<group>"; };
+		04CFAACD1D61B99F0059E140 /* ChineseToPinyinResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyinResource.m; sourceTree = "<group>"; };
+		04CFAACF1D61BCF00059E140 /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
+		04CFAAD11D62F5FD0059E140 /* PinyinFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinFormatter.h; sourceTree = "<group>"; };
+		04CFAAD21D62F5FD0059E140 /* PinyinFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinFormatter.m; sourceTree = "<group>"; };
+		04CFAAD71D62F7F90059E140 /* NSString+PinYin4Cocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PinYin4Cocoa.h"; sourceTree = "<group>"; };
+		04CFAAD81D62F7F90059E140 /* NSString+PinYin4Cocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PinYin4Cocoa.m"; sourceTree = "<group>"; };
 		1AA6933CBBF5D81845592856 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		2A5D12D6DD079CDD206B29D1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C8293BB5A814C3397A382838 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0462F2BF1D5DC499009A1BBE /* AVFoundation.framework in Frameworks */,
 				0462F2961D5B5336009A1BBE /* CoreGraphics.framework in Frameworks */,
 				0462F2941D5B5300009A1BBE /* Foundation.framework in Frameworks */,
 				0462F2921D5B52F7009A1BBE /* UIKit.framework in Frameworks */,
@@ -145,12 +197,19 @@
 		0462F23A1D5B2116009A1BBE /* GaoDeMap */ = {
 			isa = PBXGroup;
 			children = (
+				04CFAAC61D61B7AC0059E140 /* GaoDeMap-Bridging-Header.h */,
 				0462F2AF1D5B6CDB009A1BBE /* APIKey.h */,
+				04CFAA5E1D5ED5310059E140 /* 拼音判断 */,
+				04CFAA581D5ED2AA0059E140 /* REVClusterMap */,
 				0462F27E1D5B2F97009A1BBE /* Resources */,
 				0462F23E1D5B2116009A1BBE /* AppDelegate.h */,
 				0462F23F1D5B2116009A1BBE /* AppDelegate.m */,
 				0462F2411D5B2116009A1BBE /* ViewController.h */,
 				0462F2421D5B2116009A1BBE /* ViewController.m */,
+				04CFAA5B1D5ED3F40059E140 /* ChineseInclude.h */,
+				04CFAA5C1D5ED3F40059E140 /* ChineseInclude.m */,
+				04CFAA7B1D5F181C0059E140 /* MyAnnotationView.h */,
+				04CFAA7C1D5F181C0059E140 /* MyAnnotationView.m */,
 				0462F2441D5B2116009A1BBE /* Main.storyboard */,
 				0462F2471D5B2116009A1BBE /* Assets.xcassets */,
 				0462F2491D5B2116009A1BBE /* LaunchScreen.storyboard */,
@@ -196,6 +255,47 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		04CFAA581D5ED2AA0059E140 /* REVClusterMap */ = {
+			isa = PBXGroup;
+			children = (
+				04CFAA771D5F17810059E140 /* cluster.png */,
+				04CFAA781D5F17810059E140 /* iconfont-mark.png */,
+				04CFAA591D5ED2AA0059E140 /* MapLabeling.plist */,
+				04CFAA651D5EE27C0059E140 /* REVClusterMapView.h */,
+				04CFAA661D5EE27C0059E140 /* REVClusterMapView.m */,
+				04CFAA681D5EE45F0059E140 /* REVClusterManager.h */,
+				04CFAA691D5EE45F0059E140 /* REVClusterManager.m */,
+				04CFAA6B1D5EE49A0059E140 /* REVClusterBlock.h */,
+				04CFAA6C1D5EE49A0059E140 /* REVClusterBlock.m */,
+				04CFAA6E1D5EE5120059E140 /* REVAnnotationsCollection.h */,
+				04CFAA6F1D5EE5120059E140 /* REVAnnotationsCollection.m */,
+				04CFAA711D5F127D0059E140 /* REVClusterPin.h */,
+				04CFAA721D5F127D0059E140 /* REVClusterPin.m */,
+				04CFAA741D5F16370059E140 /* REVClusterMap.h */,
+			);
+			path = REVClusterMap;
+			sourceTree = "<group>";
+		};
+		04CFAA5E1D5ED5310059E140 /* 拼音判断 */ = {
+			isa = PBXGroup;
+			children = (
+				04CFAACF1D61BCF00059E140 /* unicode_to_hanyu_pinyin.txt */,
+				04CFAA5F1D5ED5480059E140 /* PinYinForObjc.h */,
+				04CFAA601D5ED5480059E140 /* PinYinForObjc.m */,
+				04CFAA621D5ED5790059E140 /* HanyuPinyinOutputFormat.h */,
+				04CFAA631D5ED5790059E140 /* HanyuPinyinOutputFormat.m */,
+				04CFAAC91D61B7D30059E140 /* PinyinHelper.h */,
+				04CFAACA1D61B7D30059E140 /* PinyinHelper.m */,
+				04CFAACC1D61B99F0059E140 /* ChineseToPinyinResource.h */,
+				04CFAACD1D61B99F0059E140 /* ChineseToPinyinResource.m */,
+				04CFAAD11D62F5FD0059E140 /* PinyinFormatter.h */,
+				04CFAAD21D62F5FD0059E140 /* PinyinFormatter.m */,
+				04CFAAD71D62F7F90059E140 /* NSString+PinYin4Cocoa.h */,
+				04CFAAD81D62F7F90059E140 /* NSString+PinYin4Cocoa.m */,
+			);
+			path = "拼音判断";
+			sourceTree = "<group>";
+		};
 		D7796EE3F8DEA9E2795848C7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +308,7 @@
 		D9F747A58D13FEE521763FDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0462F2BE1D5DC499009A1BBE /* AVFoundation.framework */,
 				0462F2951D5B5336009A1BBE /* CoreGraphics.framework */,
 				0462F2931D5B5300009A1BBE /* Foundation.framework */,
 				0462F2911D5B52F7009A1BBE /* UIKit.framework */,
@@ -329,12 +430,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CFAA791D5F17810059E140 /* cluster.png in Resources */,
 				0462F24B1D5B2116009A1BBE /* LaunchScreen.storyboard in Resources */,
 				0462F2821D5B2F97009A1BBE /* location_no@2x.png in Resources */,
 				0462F2481D5B2116009A1BBE /* Assets.xcassets in Resources */,
+				04CFAAD01D61BCF00059E140 /* unicode_to_hanyu_pinyin.txt in Resources */,
 				0462F2841D5B2F97009A1BBE /* search@2x.png in Resources */,
 				0462F2461D5B2116009A1BBE /* Main.storyboard in Resources */,
 				0462F2831D5B2F97009A1BBE /* location_yes@2x.png in Resources */,
+				04CFAA5A1D5ED2AA0059E140 /* MapLabeling.plist in Resources */,
+				04CFAA7A1D5F17810059E140 /* iconfont-mark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,9 +512,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CFAA6A1D5EE45F0059E140 /* REVClusterManager.m in Sources */,
+				04CFAA7D1D5F181C0059E140 /* MyAnnotationView.m in Sources */,
+				04CFAA641D5ED5790059E140 /* HanyuPinyinOutputFormat.m in Sources */,
+				04CFAA701D5EE5120059E140 /* REVAnnotationsCollection.m in Sources */,
 				0462F2431D5B2116009A1BBE /* ViewController.m in Sources */,
+				04CFAAD91D62F7F90059E140 /* NSString+PinYin4Cocoa.m in Sources */,
+				04CFAA671D5EE27C0059E140 /* REVClusterMapView.m in Sources */,
+				04CFAA611D5ED5480059E140 /* PinYinForObjc.m in Sources */,
+				04CFAA731D5F127D0059E140 /* REVClusterPin.m in Sources */,
 				0462F2401D5B2116009A1BBE /* AppDelegate.m in Sources */,
+				04CFAA6D1D5EE49A0059E140 /* REVClusterBlock.m in Sources */,
+				04CFAAD31D62F5FD0059E140 /* PinyinFormatter.m in Sources */,
+				04CFAA5D1D5ED3F40059E140 /* ChineseInclude.m in Sources */,
 				0462F23D1D5B2116009A1BBE /* main.m in Sources */,
+				04CFAACB1D61B7D30059E140 /* PinyinHelper.m in Sources */,
+				04CFAACE1D61B99F0059E140 /* ChineseToPinyinResource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,6 +667,7 @@
 			baseConfigurationReference = 1AA6933CBBF5D81845592856 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GaoDeMap/Extern",
@@ -567,6 +686,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mac.GaoDeMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GaoDeMap/拼音判断/GaoDeMap-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -575,6 +696,7 @@
 			baseConfigurationReference = 2A5D12D6DD079CDD206B29D1 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GaoDeMap/Extern",
@@ -593,6 +715,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mac.GaoDeMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GaoDeMap/拼音判断/GaoDeMap-Bridging-Header.h";
 			};
 			name = Release;
 		};
